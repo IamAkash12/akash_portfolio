@@ -1,0 +1,18 @@
+Step 1- create the folder for project 
+
+Step 2- Create a new folder "backend".
+
+Step 3- install sanity in it. using "npm install -g @sanity/cli"
+
+Step 4- intialize sanity using sanity init --coupon javascriptmastery2022 (javscriptmastery2022) is predefined coupon ig.
+
+Step 5- Login using google as authenctication method , then click on yes to default dataset config , Press enter on default output path, Select Clean project with no predefined schemas as we are building the project with scratch, select no in typescript option , select npm as package manager.
+
+Step 6 -  Start the sanity server using "npm run dev" updated command in v3.
+
+Step 7- Create a new schema name testimonials in schema folder in backend. Write new schema in plain js while creating object fields there
+will be an option nams "hotspot" which is set true (Use of hotspot is User can crop the uploaded image if hotspot is set true).
+
+Step -8 Add more Schemas and import it in index.js
+
+Step 9- Backend Part is done. Now start front end part in react by running "npx create-react-app frontend_react"
